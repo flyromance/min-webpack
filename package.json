@@ -1,0 +1,18 @@
+{
+    "name": "mini-webpack",
+    "bin": {
+        "mwebpck": "./bin"
+    },
+    "scripts": {
+        "build_mini": "node build_mini.js",
+        "build": "node build.js"
+    },
+    "dependencies": {
+        "@babel/core": "7.13.0",
+        "@babel/preset-env": "7.13.8",
+        "ejs": "^3.1.6",
+        "less": "^4.1.1",
+        "loader-utils": "2.0.0",
+        "webpack": "^4.12.0"
+    }
+}
